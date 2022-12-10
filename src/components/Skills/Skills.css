@@ -1,0 +1,17 @@
+.skills-container {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+.skill-side-name {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+   .skills-container {
+   display: grid;
+   grid-template-columns: 1fr;
+
+   }
+   
+}

@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     <Header></Header>
     <Nav></Nav>
     <About></About>
-    <Services></Services>
+    <Skills></Skills>
+    {/* <Services></Services> */}
     {/* <Portfolio></Portfolio> */}
     <Contact></Contact>
     <Footer></Footer>

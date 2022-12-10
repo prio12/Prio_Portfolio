@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {AiOutlineHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
-import {RiServiceLine} from 'react-icons/ri'
+import {GiBladeBite} from 'react-icons/gi'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import './Nav.css'
 
@@ -12,8 +12,10 @@ const Nav = () => {
         <nav>
             <a href="#" onClick={() =>setActiveNav('#')} className={activeNav === '#'? 'active':''}><AiOutlineHome></AiOutlineHome></a>
             <a href="#about" onClick={() =>setActiveNav('#about')} className={activeNav === '#about'? 'active':''}><AiOutlineUser></AiOutlineUser></a>
-            <a href="#services" onClick={() =>setActiveNav('#services')} className={activeNav === '#services'? 'active':''}><RiServiceLine></RiServiceLine></a>
+            {/* <a href="#skills" onClick={() =>setActiveNav('#skills')} className={activeNav === '#skills'? 'active':''}><RiServiceLine></RiServiceLine></a> */}
+            <a href="#skills" onClick={() =>setActiveNav('#skills')} className={activeNav === '#skills'? 'active':''}><GiBladeBite></GiBladeBite></a>
             <a href="#contact" onClick={() =>setActiveNav('#contact')} className={activeNav === '#contact'? 'active':''}><BiMessageSquareDetail></BiMessageSquareDetail></a>
+            
         </nav>
     );
 };
