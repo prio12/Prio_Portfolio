@@ -1,33 +1,63 @@
-import React from 'react';
-import { BsCheckAll } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const DisplayProjects = ({project}) => {
-  
+const DisplayProjects = ({ project }) => {
+  const { title, img, para1, para2, para3, live, git } = project;
 
-    const {title,img,para1,para2,para3,live} = project;
-    return (
-        <section className='container'>
-            <div className="card shadow-xl">
-  <figure><img style={{height:"200px"}} className='rounded-xl' src={img} alt="img" /></figure>
-  <div className="card-body">
-    <h2 style={{color:"orange"}} className="text-center text-2xl">
-      {title}
-    </h2>
-    
-    <p style={{fontSize:"13px"}}>* {para1}</p>
-    <p style={{fontSize:"13px"}}>* {para2}</p>
-    <p style={{fontSize:"13px"}}>* {para3}</p>
-    {/* <span>{para1}</span> */}
-    <div className="card-actions justify-end">
-   <a className='btn btn-outline btn-info' href={live}>Live Site</a>
-   {/* <Link to='/projects'><button></button></Link> */}
-   <a className='btn btn-outline btn-info' href='#projectsDetails'>Live Site</a>
-    </div>
-  </div>
-</div>
-        </section>
-    );
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <section
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="200"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+      className="container"
+    >
+      <div style={{backgroundColor:"rgba(0,0,0,0.2)"}} className="card shadow-5xl">
+        <figure>
+          <img
+            style={{ height: "200px", width: "100%" }}
+            className="rounded-xl"
+            src={img}
+            alt="img"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="text-center text-2xl">{title}</h2>
+
+          <p style={{ fontSize: "13px" }}>* {para1}</p>
+          <p style={{ fontSize: "13px" }}>* {para2}</p>
+          <p style={{ fontSize: "13px" }}>* {para3}</p>
+          {/* <span>{para1}</span> */}
+          <div className="card-actions justify-end">
+            <a
+              className="btn btn-outline btn-info"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={live}
+            >
+              Live Site
+            </a>
+            <a
+              className="btn btn-outline btn-error"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={git}
+            >
+              Source Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default DisplayProjects;
