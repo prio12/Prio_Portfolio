@@ -55,7 +55,8 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 60vh;
+  height: 100vh;
+  /* style={{overflow-x: 'hidden'}} */
 }
 
 section > h2, section > h5 {
