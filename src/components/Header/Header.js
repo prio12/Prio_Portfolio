@@ -3,6 +3,7 @@ import CTA from './CTA';
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials';
 import './Header.css'
+import DevTypeWriter from './DevTypeWriter/DevTypeWriter';
 
 const Header = () => {
     return (
@@ -10,7 +11,8 @@ const Header = () => {
             <div className="container header-container">
                 <h5>Hello I'm</h5>
                 <h1>Maksudur Rahman</h1>
-                <h5 className="text-light">MERN Stack Developer</h5>
+                <DevTypeWriter></DevTypeWriter>
+                {/* <h5 className="text-light">MERN Stack Developer</h5> */}
                 <HeaderSocials></HeaderSocials>
                 <CTA></CTA>
 
