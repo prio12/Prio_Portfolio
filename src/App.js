@@ -4,19 +4,18 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
-import Portfolio from './components/Portfolio/Portfolio';
-import Services from './components/Services/Services';
+import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 
 function App() {
+  
   return (
     <>
     <Header></Header>
     <Nav></Nav>
     <About></About>
     <Skills></Skills>
-    {/* <Services></Services> */}
-    {/* <Portfolio></Portfolio> */}
+    <Projects></Projects>
     <Contact></Contact>
     <Footer></Footer>
     </>

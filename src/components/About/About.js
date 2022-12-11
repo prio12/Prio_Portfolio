@@ -17,6 +17,7 @@ const About = () => {
       data-aos-mirror="true"
       data-aos-once="false"
       data-aos-anchor-placement="top-center"
+      
       id="about"
     >
       <h5>Get to know</h5>
