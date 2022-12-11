@@ -20,7 +20,7 @@ const DisplayProjects = ({ project }) => {
       data-aos-anchor-placement="top-center"
       className="container"
     >
-      <div style={{backgroundColor:"rgba(0,0,0,0.2)"}} className="card shadow-5xl">
+      <div style={{background:"var(--color-bg-variant)"}} className="card shadow-5xl">
         <figure>
           <img
             style={{ height: "200px", width: "100%" }}
@@ -38,7 +38,7 @@ const DisplayProjects = ({ project }) => {
           {/* <span>{para1}</span> */}
           <div className="card-actions justify-end">
             <a
-              className="btn btn-outline btn-info"
+              className="btn"
               target="_blank"
               rel="noopener noreferrer"
               href={live}
@@ -46,7 +46,7 @@ const DisplayProjects = ({ project }) => {
               Live Site
             </a>
             <a
-              className="btn btn-outline btn-error"
+              className="btn btn-primary"
               target="_blank"
               rel="noopener noreferrer"
               href={git}

@@ -11,8 +11,8 @@ const DevTypeWriter = () => {
   return (
     <div>
       <h4> A 
-       <span style={{ color: 'crimson',marginLeft:"3px", fontWeight: 'bolder' }}>{text}</span>
-      <Cursor cursorColor="red" />
+       <span style={{ color: 'var(--color-primary)',marginLeft:"3px", fontWeight: 'bolder' }}>{text}</span>
+      <Cursor cursorColor="var(--color-primary)" />
       </h4>
     </div>
   );
