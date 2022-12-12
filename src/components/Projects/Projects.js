@@ -22,7 +22,7 @@ const Projects = () => {
       para2:
         "This site allows the sellers to sell their used phones and the buyers to buy one.",
       para3: "HTML || CSS || DaisyUI || JS || React || Node JS || MongoDB",
-      img: "https://i.ibb.co/rcq99jf/Web-capture-12-12-2022-2135-resale-f5fa5-web-app.jpg",
+      img: "https://i.ibb.co/wsgwPCY/Web-capture-12-12-2022-6816-resale-f5fa5-web-app.jpg",
       live: "https://resale-f5fa5.web.app/",
       git: "https://github.com/prio12/resale-market-client-side",
     },

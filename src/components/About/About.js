@@ -32,10 +32,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-content-btn">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sit
-              deleniti hic praesentium doloribus soluta optio culpa error, quos
-              nulla suscipit placeat facere tempora eligendi. Aperiam velit
-              eaque dolorum dolor?
+            I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities.
             </p>
             <a href="#contact" className="btn about-btn">
               Let's Talk
