@@ -29,7 +29,7 @@ const DisplayProjects = ({ project }) => {
             alt="img"
           />
         </figure>
-        <div className="card-body">
+        <div className="card-body" style={{height:"350px"}}>
           <h2 className="text-center text-2xl">{title}</h2>
 
           <p style={{ fontSize: "13px" }}>* {para1}</p>
