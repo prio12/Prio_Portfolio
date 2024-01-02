@@ -45,6 +45,16 @@ const FrontSkillbar = () => {
         </div>
             <div className='skill-box'>
             <span className="title">
+                Redux Thunk
+            </span>
+            <div className="skill-bar">
+                <span className="skill-per thunk">
+                    <span className="tooltip">85%</span>
+                </span>
+            </div>
+        </div>
+            <div className='skill-box'>
+            <span className="title">
                 Boostrap
             </span>
             <div className="skill-bar">

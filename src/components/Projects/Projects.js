@@ -4,9 +4,21 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 const Projects = () => {
   const projects = [
-    
+
     {
       id: "01",
+      title: "BlogWave",
+      para1:
+        "Share thoughts, ideas, and experiences effortlessly. Easily edit published blogs on the go.",
+      para2: "Connect, follow, and receive real-time notifications for meaningful interactions.",
+      para3: "React JS, MongoDB, Express JS, Node JS, Tailwind CSS were used and spiced it up with Redux Thunk for a smooth experience.",
+      img: "https://i.ibb.co/0DPqbmJ/Web-capture-2-1-2024-193829-blog-wave-3c534-web-app.jpg",
+      live: "https://blog-wave-3c534.web.app/",
+      git: "https://github.com/prio12/BlogWave",
+    },
+    
+    {
+      id: "02",
       title: "Career Edge",
       para1:
         "Career Edge: A job finder site .",
@@ -29,17 +41,6 @@ const Projects = () => {
       git: "https://github.com/prio12/resale-market-client-side",
     },
     
-    {
-      id: "03",
-      title: "Learning Mate",
-      para1: "Learning Mate is an online learning platform",
-      para2:
-        "This site provides users with special courses at reasonable prices.",
-      para3: "JSX  || CSS || DaisyUI || React || Express JS || MongoDB || Firebase",
-      img: "https://i.ibb.co/55WmgvG/Web-capture-11-12-2022-202533-learning-mate-91c7e-web-app.jpg",
-      live: "https://learning-mate-91c7e.web.app/",
-      git: "https://github.com/prio12/learning-platform-client-side",
-    },
   ];
   return (
     <section id="projects">

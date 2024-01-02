@@ -54,6 +54,10 @@
     width: 75%;
     animation-delay: 0.4s;
 }
+.skill-per.thunk {
+    width: 85%;
+    animation-delay: 0.4s;
+}
 .skill-per.boostrap {
     width: 90%;
     animation-delay: 0.5s;
@@ -66,7 +70,7 @@
     width: 40%;
     animation-delay: 0.5s;
 }
-.skill-per.mongoDB {
+.skill-per.mongoDb {
     width: 60%;
     animation-delay: 0.5s;
 }
